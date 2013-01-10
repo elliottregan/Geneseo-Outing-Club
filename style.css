@@ -1,0 +1,314 @@
+@import url(http://fonts.googleapis.com/css?family=Carter+One&v1);
+@import url(http://fonts.googleapis.com/css?family=Rock+Salt);
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:bold&v1);
+@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+@import url(http://fonts.googleapis.com/css?family=The+Girl+Next+Door&v1);
+@import url(http://fonts.googleapis.com/css?family=Nixie+One&v1);
+@import url(http://fonts.googleapis.com/css?family=Redressed&v1);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display&v1);
+
+
+body {
+	background: url(images/clouds.png);
+	background-repeat: repeat-x;
+	background-color: #CEE2F7;
+	background-attachment: fixed;
+}
+
+p{
+	text-indent: 20px;
+	color: darkslategrey;
+	font-family: 'Walter Turncoat';
+}
+p a[href]:hover{
+	color: gray;
+	border-bottom: 1px solid;
+}
+p a[href], a[href]:visited{
+	text-decoration: none;
+	color: inherit;
+	border-bottom: 1px dotted;
+}
+
+.centered_larger{
+	text-align: center;
+	font-size: 1.2em;
+	margin-top: -40px;
+}
+
+h1{
+	text-align: center;
+	font-size: 5em;
+	color: beige;
+	text-shadow: 0px 2px 0px black;
+	font-family: 'Cabin Sketch', arial, serif;
+	margin: 0px;
+	
+}
+
+h2{
+	text-align: center;
+	font-size: 2.6em;
+	color: darkred;
+	margin-top: 0;
+	font-family: 'Carter One', arial, serif;
+	text-shadow: 0px 2px 2px white;
+}
+
+h3{
+	text-align: center;
+	font-size: 2em;
+	color: darkred;
+	margin-top: 0;
+	font-family: 'Carter One', arial, serif;
+	text-shadow: 0px 1px 1px white;
+
+}
+
+h4{
+	font-family: 'Rock Salt';
+	color: black;
+	font-size: 1.5em;
+	margin: 40px 0px -40px 0px;
+	display: inline;
+	text-shadow: 0px 1px 0px white;
+}
+
+h5{
+	font-family: 'Nixie One';
+	color: darkred;
+	display: inline;
+	font-size: 1.5em;
+	margin: -40px 6px 0px 0px;
+	text-shadow: 0px 2px 2px white;
+}
+
+h6{
+	font-family: 'Nixie One';
+	color: brown;
+	font-size: .85em;
+	font-style: italic;
+	margin: 0px 6px 0px 0px;
+}
+
+blockquote{
+	text-indent: 40px;
+	font-size: 1.3em;
+	color: darkslategrey;
+	font-family: 'Playfair Display', cursive;
+	padding: 20px;
+}
+blockquote::first-letter {
+	font-size: 1.8em;
+	line-height: 0em;
+}
+
+#menubar {
+	color: darkslategray;
+	margin-top: -20px;
+	text-align: center;
+	color: black;
+	font-size: 2.5em;
+	font-family: 'Walter Turncoat', Georgia, Serif;	
+}
+#menubar li {
+	display: inline-block;
+	color: black;
+	font-size: .75em;	
+}
+#menubar a[href], #menubar a[href]:visited{
+	color: darkslategray;
+/*	text-shadow: 0px 0px 10px white;*/
+	text-decoration: none;
+	
+}
+#menubar a[href]:hover{
+	color: black;
+/*	text-shadow: 0px 0px 6px white;*/
+}
+#menubar a[href]:active{
+	color: darkslategray;
+/*	text-shadow: 0px 0px 20px white;*/
+}
+
+#content {
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 100%;
+	min-width: 724px;
+	margin: 0 40px 240px 40px;
+	border: 50px;
+	border-image: url("images/border.png") 75 75 75 75 round round;
+	-webkit-border-image: url("images/border.png") 75 75 75 75 round round;
+	-moz-border-image: url("images/border.png") 75 75 75 75 round round;
+	}
+#content_ie{
+	padding-left: 40px;
+	padding-right: 40px;
+	height: 100%;
+	width: 725px;
+	margin: auto;
+	margin-top: -4px;
+	background-image: url("images/ie-border_mid.png");
+	background-repeat: repeat-y;
+}
+.ie_border-top{
+	text-align: center;
+}
+.ie_border-bottom{
+	text-align: center;
+	margin-bottom: 240px;
+}
+#content img, #content_ie img {
+	margin: 12px;
+	margin-top: 20px;
+	border-style: solid;
+	border-width: medium;
+	max-width: 320px;
+	max-height: 300px;
+	padding: 0;
+}
+
+.photos{
+	text-align: center;
+	width: 714px;
+	margin: auto;
+}
+
+.photo{
+	text-align: center;
+	display: inline;
+	background-color: rgba(255,255,255,.4);
+	border: 1px solid silver;
+	margin: 3px;
+	width: 349px;
+}
+.odd{
+	float: left;
+	
+}
+.even{
+	float: right;
+}
+.photo img{
+	border: 1px solid silver;
+	height: 240px;
+}
+.photo p{
+	font: .8em Walter Turncoat, Arial, sans-serif;
+	padding: 0;
+	margin: -16px 0 0 0;
+	vertical-align: middle;
+}
+
+a[href], a[href]:visited{
+	color: inherit;
+	text-decoration: underline;
+}
+ 
+.bio_odd{
+	text-align: right;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: right;
+	clear: right;
+}
+.bio_even{
+	text-align: left;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	text-align: left;
+	clear: left;
+}
+
+.pic_odd{
+	margin-top: 12px;
+	float: left;
+	clear: right;
+	border-width: 25px;
+} 
+.pic_even{
+	margin-top: 12px;
+	float: right;
+	clear: left;
+	border-width: 25px;
+}
+
+#cal_agenda{
+	float: left;
+}
+#cal_month{
+	float: right;
+}
+
+#footer{
+	margin-top: 20px;
+}
+.footer_left {
+	clear: both;
+	bottom: 0;
+	overflow: hidden;
+	position: fixed;
+	left: 0;
+	z-index: 5;
+}
+.footer_right {
+	clear: both;
+	bottom: 0;
+	overflow: hidden;
+	position: fixed;
+	right: 0;
+	z-index: 5;
+}
+.footer_left2 {
+	clear: both;
+	left: 15%;
+	bottom: 10px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 4;
+}
+
+.footer_right2 {
+	clear: both;
+	right: 20%;
+	bottom: 10px;
+	overflow: hidden;
+	position: fixed;
+	z-index: 4;
+}
+.footer_mid {
+	clear: both;
+	bottom: 0;
+	overflow: hidden;	
+	position: fixed;
+	left: 10%;
+	z-index: 3;
+}
+.footer_mid2 {
+	clear: both;
+	bottom: 0;
+	overflow: hidden;
+	position: fixed;
+	left: 25%;
+	z-index: 2;
+}
+
+#footer_fade{	
+	width: 100%;
+	height: 100px;
+	position: fixed;
+	bottom: 0px; 
+	left: 0px;
+	z-index: 1;
+	background: url(images/green.png);
+	background-repeat: repeat-x;
+	clear: both;
+}
+
+.clear{
+	clear: both;
+}
+
